@@ -9,7 +9,8 @@ import { CoreModule } from '@core/core.module';
 import { CookieService } from 'ngx-cookie-service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule} from '@angular/forms';
-
+import { ProgramacionModule } from './feature/programacion/programacion.module';
+import { AprendizModule } from './feature/aprendices/aprendiz.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,8 @@ import { FormsModule} from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     ProductoModule,
+    ProgramacionModule,
+    AprendizModule,
     CoreModule,
     HttpClientModule,
     FormsModule
